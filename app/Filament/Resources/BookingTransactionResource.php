@@ -82,7 +82,7 @@ class BookingTransactionResource extends Resource
                 TextColumn::make('name')
                 ->searchable(),
 
-                TextColumn::make('office_space.name')
+                TextColumn::make('officeSpace.name')
                 ->searchable(),
 
                 TextColumn::make('started_at')
